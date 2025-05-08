@@ -216,3 +216,22 @@ nav {
     line-height: 1.8;
     font-size: 1.1rem;
 }
+
+/* Responsive Design for About Section */
+@media (max-width: 768px) {
+    .about-row {
+        flex-direction: column;
+    }
+    
+    .about-row.reverse {
+        flex-direction: column;
+    }
+    
+    .about-image {
+        height: 300px;
+    }
+    
+    .about-text {
+        padding: 2rem;
+    }
+}
